@@ -1,0 +1,48 @@
+
+# =========================
+# ENVIRONMENT VARIABLES & SECRETS
+# =========================
+.env
+.env.*
+!.env.example
+mcp.json
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# NODE & NEXT.JS
+# =========================
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+
+# =========================
+# PYTHON & VIRTUAL ENVIRONMENTS
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE & OS
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
